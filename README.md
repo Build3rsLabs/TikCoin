@@ -99,7 +99,7 @@ Community governance opportunities
 
 # 🛠️ Installation
 
-Prerequisites
+## Prerequisites
 
 Node.js v16+ and npm/yarn
 
@@ -124,7 +124,7 @@ yarn install
 # Build the Soroban smart contract
 soroban build
 
-🚀 Deployment
+## 🚀 Deployment
 
 Stellar Soroban Smart Contract Deployment
 
@@ -134,21 +134,21 @@ soroban deploy --network testnet
 # Deploy to Stellar mainnet
 soroban deploy --network mainnet
 
-Frontend Deployment
+## Frontend Deployment
 
 cd app
 npm run build
 npm run deploy
 
-📝 Contributing
+# 📝 Contributing
 
 We welcome contributions! See our Contributing Guidelines for details.
 
-📄 License
+# 📄 License
 
 TikCoin is released under the MIT License. See the LICENSE file for details.
 
-🔗 Links
+# 🔗 Links
 
 Stellar Soroban
 
