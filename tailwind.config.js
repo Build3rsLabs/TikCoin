@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'creator-dark': '#121212',
-        'creator-card': '#1F1F1F',
-        'creator-pink': '#FE2C55',
-        'creator-cyan': '#25F4EE',
-        'creator-gray': '#2F2F2F'
+        'tik-dark': '#121212',
+        'tik-card': '#1F1F1F',
+        'tik-pink': '#FE2C55',
+        'tik-cyan': '#25F4EE',
+        'tik-gray': '#2F2F2F'
       },
       animation: {
         'gradient': 'gradient 8s linear infinite',
@@ -29,4 +29,3 @@ export default {
   },
   plugins: [],
 };
-

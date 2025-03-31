@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500;
+  }
+  
+  .gradient-border {
+    @apply relative before:absolute before:-inset-[1px] before:bg-gradient-to-r before:from-pink-500 before:via-purple-500 before:to-cyan-500 before:rounded-xl before:-z-10;
+  }
+}
