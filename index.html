@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Stellar Creator Marketplace - Creator Token Investment Platform</title>
+    <meta name="title" content="Stellar Creator Marketplace - Creator Token Investment Platform">
+    <meta name="description" content="Invest in your favorite content creators through tokenized assets on the Stellar blockchain. Trade creator tokens, earn rewards, and get exclusive access to creator content.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Stellar Creator Marketplace - Creator Token Investment Platform">
+    <meta property="og:description" content="Invest in your favorite content creators through tokenized assets on the Stellar blockchain. Trade creator tokens, earn rewards, and get exclusive access to creator content.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Stellar Creator Marketplace - Creator Token Investment Platform">
+    <meta property="twitter:description" content="Invest in your favorite content creators through tokenized assets on the Stellar blockchain. Trade creator tokens, earn rewards, and get exclusive access to creator content.">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Theme Color for mobile browsers -->
+    <meta name="theme-color" content="#121212">
+    
+    <!-- PWA capable -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Prevent phone number detection on iOS -->
+    <meta name="format-detection" content="telephone=no">
+    
+    <style>
+      /* Minimal loading state styles */
+      body {
+        margin: 0;
+        background: #121212;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #121212;
+      }
+      .loading::after {
+        content: '';
+        width: 50px;
+        height: 50px;
+        border: 3px solid #2F2F2F;
+        border-radius: 50%;
+        border-top-color: #FE2C55;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading"></div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
